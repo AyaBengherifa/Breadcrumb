@@ -61,6 +61,11 @@ const Breadcrumb: FC<IBreadcrumbProps> = ({ datasets = [], style, className, cla
               href={link.link}
               className="hover:text-gray-400"
               onClick={() => handleItemClick(index)}
+              id="headlessui-tabs-tab-19"
+              role="tab"
+              aria-selected="true"
+              data-headlessui-state="selected"
+              style={{ color: index === clicked ? '#4096ff' : 'inherit' }}
             >
               {link.label}
             </a>

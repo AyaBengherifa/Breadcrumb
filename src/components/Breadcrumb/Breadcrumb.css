@@ -1,4 +1,3 @@
-.clickedLink {
-  color: grey;
-  font-weight: bold !important;
+.clickedLink a {
+  color: #4096ff;
 }
